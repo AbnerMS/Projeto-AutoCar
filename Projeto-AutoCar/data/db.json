@@ -1,0 +1,46 @@
+{
+  "products": [
+    {
+      "name": "Corolla",
+      "price": "130.000,00",
+      "year": 2021,
+      "marca": "Toyota",
+      "id": "1"
+    },
+    {
+      "name": "Civic",
+      "price": "115.000,00",
+      "year": 2020,
+      "marca": "Honda",
+      "id": "dcf3"
+    },
+    {
+      "name": "EcoSport",
+      "price": "85.000,00",
+      "year": 2019,
+      "marca": "Ford",
+      "id": "bbde"
+    },
+    {
+      "id": "dd91",
+      "name": "Onix",
+      "price": "75.000,00",
+      "year": 2022,
+      "marca": "Chevrolet"
+    },
+    {
+      "id": "a0c7",
+      "name": "Volkswagen",
+      "price": "120.000,00",
+      "year": 2021,
+      "marca": "T-Cross"
+    },
+    {
+      "id": "b73b",
+      "name": "Kwid",
+      "price": "55.000,00",
+      "year": 2023,
+      "marca": "Renault"
+    }
+  ]
+}

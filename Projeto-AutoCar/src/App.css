@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* estilos do header*/
+.header {
+  margin-bottom: 1rem;
+  background-color: #A8DADC ;
+  border: 7px solid #1E3A5F;
+  border-radius: 1rem;
+}
+
+.header h1 {
+  color: #1E3A5F;
+}
+
+.box1, .box2, .box3, .box4, .box5 {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  margin: 2px;
+  border: 2px solid #000;
+  background-color: #1E3A5F;
+
+}
+.box2 {
+  background-color: #B0B0B0;
+}
+.box3 {
+  background-color: #E21C36;
+}
+.box4 {
+  color: #000;
+  background-color: #FFFFFF;
+}
+.box5 {
+  color: #000;
+  background-color: #A8DADC;
+}
+
+ /* estilios do Body*/
+.container {
+  display: flex;
+}
+
+/* Lista de Produtos*/
+.products-card {
+  width: 2000px;
+  background-color: #E21C36;
+  border: 4px solid #FFFFFF;
+  border-radius: 0.8rem;
+  margin-right: 33rem;
+}
+
+.product-list {
+  display:inline-table;
+}
+
+.product-item {
+  display: flex;
+  margin-left: 1rem;
+  align-items: center;
+}
+
+.product-details {
+  display: flexbox;
+  margin-right: 1rem;
+  align-items: center;
+}
+
+.product-details h3 {
+  padding-right: 1rem;
+}
+
+.product-actions button {
+  margin-right: 0.5rem;
+}
+
+#edit {
+  background-color: #1E3A5F;
+  border: 0.13rem solid #FFFFFF;
+}
+
+#delete {
+  background-color: #FFFFFF;
+  border: 0.13rem solid #1E3A5F;
+  color: #1E3A5F;
+}
+
+.product-actions {
+  display:-ms-flexbox;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  font-size: 13px;
+}
+
+/* Formulário */
+.form-card {
+  max-height: 300px;
+  margin-left: 52.8%;
+  padding-left: 10px;
+  justify-items: end;
+  background-color: #1E3A5F;
+  border: 4px solid #FFFFFF;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  position: fixed;
+}
+
+.form-card form{
+  display:grid;
+  padding: 1rem;
+}
+
+.form-card input {
+  width: 185px;
+  margin: 0.3rem;
+  background-color: #B0B0B0;
+  border-radius: 0.35rem;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+#submit {
+  width: 100px;
+  height: 20px;
+  margin-top: 1rem;
+  background-color: #E21C36;
+  border-radius: 0.3rem;
+  color: #FFFFFF;
+  border: none;
+}
+
+/* Footer */
+.footer {
+  color: #A8DADC;
+}
