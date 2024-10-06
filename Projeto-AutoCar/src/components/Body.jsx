@@ -15,8 +15,7 @@ function Body({
             {products.map((product) => (
               <li key={product.id} className="product-item">
                 <div className="product-details">
-                  <h2>{product.marca} {product.name} - {product.year}</h2>
-                  <h3>R$ {product.price}</h3>
+                  <h3>{product.marca} {product.name} - {product.year}<br></br> R$ {product.price}</h3>
                 </div>
                 <div className="product-actions">
                   <button id='edit' onClick={() => handleEdit(product)}>Editar</button>

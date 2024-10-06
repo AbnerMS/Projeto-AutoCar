@@ -29,11 +29,11 @@
       "marca": "Chevrolet"
     },
     {
-      "id": "a0c7",
       "name": "Volkswagen",
       "price": "120.000,00",
       "year": 2021,
-      "marca": "T-Cross"
+      "marca": "T-Cross",
+      "id": "a0c7"
     },
     {
       "id": "b73b",
@@ -41,6 +41,13 @@
       "price": "55.000,00",
       "year": 2023,
       "marca": "Renault"
+    },
+    {
+      "id": "82a1",
+      "name": "Hilux",
+      "price": "250.000,00",
+      "year": 2022,
+      "marca": "Toyota"
     }
   ]
 }
